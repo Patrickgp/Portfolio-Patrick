@@ -37,13 +37,6 @@
   font-weight: 300;
 }
 
-.landing-bg {
-  background-image: url(../images/abstract.jpeg);
-  background-size: cover;
-  background-position: 10% 50%; /*Used background position to match wireframe on Figma*/
-  height: 100vh;
-}
-
 .hero-title {
   position: absolute;
   color: var(--primary-color);
@@ -181,26 +174,26 @@
 
 #about {
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    var(--secondary-color),
-    var(--second-bg-color)
-  );
 }
 
-#projects {
-  background: linear-gradient(
-    180deg,
-    var(--second-bg-color),
-    var(--secondary-color)
-  );
-}
+/* #projects {
+} */
 
 #contact {
   height: 100vh;
-  background: linear-gradient(
-    180deg,
-    var(--secondary-color),
-    var(--second-bg-color)
-  );
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  z-index: 9999999;
+  border: black 2px solid;
+  cursor: pointer;
+  padding: 5px 50px;
+  font-size: 10pt;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
 }
