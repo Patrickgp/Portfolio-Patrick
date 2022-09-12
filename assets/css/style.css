@@ -168,6 +168,17 @@
   font-family: "Poppins", sans-serif;
 }
 
+.frame {
+  width: 100vw;
+}
+
+.mySlides {
+  width: 500px;
+  height: 275px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #home {
   height: 100vh;
 }
@@ -176,8 +187,9 @@
   height: 100vh;
 }
 
-/* #projects {
-} */
+#projects {
+  height: 100vh;
+}
 
 #contact {
   height: 100vh;
