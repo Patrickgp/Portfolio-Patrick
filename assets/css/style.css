@@ -1,0 +1,206 @@
+:root {
+  --primary-color: #480075;
+  --secondary-color: #3272d6;
+  --tertiary-color: #ee8328;
+  --second-bg-color: #ffd1af;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.titler {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.navbar-brand {
+  font-size: 24pt;
+  color: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--primary-color);
+}
+
+.navbar {
+  --bs-navbar-hover-color: var(--primary-color);
+}
+
+.hero-cta {
+  font-weight: 300;
+}
+
+.landing-bg {
+  background-image: url(../images/abstract.jpeg);
+  background-size: cover;
+  background-position: 10% 50%; /*Used background position to match wireframe on Figma*/
+  height: 100vh;
+}
+
+.hero-title {
+  position: absolute;
+  color: var(--primary-color);
+  top: 50vh;
+  left: 10vw;
+  width: 400px;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+.hero-arrow {
+  position: absolute;
+  top: 55vh;
+  left: 5vw;
+}
+
+.about {
+  height: 100px;
+  color: var(--tertiary-color);
+  padding: 25px 0;
+}
+
+.projects {
+  height: 100px;
+  color: var(--tertiary-color);
+  padding: 25px 0;
+}
+
+.contact {
+  height: 100px;
+  color: var(--tertiary-color);
+  padding: 25px 0;
+}
+
+.icon-bar {
+  display: flex;
+  width: 100%;
+  background-color: none;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 0;
+  height: 150px;
+}
+
+.icon-bar a {
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 15px 25px 5px 25px;
+  transition: all 0.3s ease;
+  color: var(--main-color);
+  font-size: 82px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(90deg, white, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.facebook i {
+  padding: 0 10px;
+}
+
+.facebook:hover {
+  background: #3b5998;
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.instagram:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.linkedin:hover {
+  background: #007bb5;
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.github:hover {
+  background: #6e5494;
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-form > * {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 40%;
+  margin: 0 auto 15px auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input {
+  width: 35%;
+}
+
+.contact-form textarea {
+  height: 35%;
+  font-family: "Poppins", sans-serif;
+}
+
+#home {
+  height: 100vh;
+}
+
+#about {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    var(--secondary-color),
+    var(--second-bg-color)
+  );
+}
+
+#projects {
+  background: linear-gradient(
+    180deg,
+    var(--second-bg-color),
+    var(--secondary-color)
+  );
+}
+
+#contact {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    var(--secondary-color),
+    var(--second-bg-color)
+  );
+}

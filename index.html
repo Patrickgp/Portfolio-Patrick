@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/ef7f054cb4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Patrick Poopathi | Full Stack Developer</title>
+  </head>
+  <body>
+    <!-- Nav Bar Starts -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand"
+          >Patrick Poopathi<span class="titler"
+            >Full Stack Web Developer</span
+          ></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-2">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#about" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#projects" class="nav-link">My Projects</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#contact" class="nav-link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Bar Ends -->
+
+    <!-- Home Starts -->
+    <section id="home">
+      <div
+        class="landing-bg"
+        title="Photo by Milad Fakurian on Unsplash "
+      ></div>
+
+      <div class="hero-cta">
+        <!-- created arrow in Figma and was able to export it as an svg -->
+        <svg
+          class="hero-arrow"
+          width="24"
+          height="140"
+          viewBox="0 0 24 140"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.9393 139.061C11.5251 139.646 12.4749 139.646 13.0607 139.061L22.6066 129.515C23.1924 128.929 23.1924 127.979 22.6066 127.393C22.0208 126.808 21.0711 126.808 20.4853 127.393L12 135.879L3.51472 127.393C2.92893 126.808 1.97919 126.808 1.3934 127.393C0.807611 127.979 0.807611 128.929 1.3934 129.515L10.9393 139.061ZM10.5 0L10.5 138H13.5L13.5 0L10.5 0Z"
+            fill="#480075"
+          />
+        </svg>
+
+        <h2 class="hero-title">A Bright Future Begins Here</h2>
+      </div>
+    </section>
+    <!-- Home End -->
+
+    <!-- About Me Start -->
+    <section id="about">
+      <h1 class="text-center about">About Me</h1>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col d-flex align-items-center flex-wrap flex-sm-column flex-md-row justify-content-center"
+          >
+            <img
+              src="./assets/images/Selfie.jpeg"
+              style="
+                width: 300px;
+                border-radius: 25px;
+                border: 2px solid var(--primary-color);
+              "
+              alt="Picture of Patrick Poopathi"
+            />
+          </div>
+          <div class="row mt-5 text-center">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel
+              culpa incidunt voluptate veritatis adipisci saepe, doloribus
+              veniam! Impedit quidem, ipsum vel odio temporibus corporis ad
+              excepturi? Quidem, quas voluptate iste aspernatur minima enim
+              magni impedit fugiat modi, labore itaque natus pariatur, est
+              dolorem quibusdam animi odio consequatur? Amet, nostrum molestias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me Ends -->
+
+    <!-- Project Card Start -->
+    <section id="projects">
+      <h1 class="text-center projects">My Projects</h1>
+      <div
+        class="container-fluid d-flex justify-content-evenly align-items-center flex-wrap pb-5"
+      >
+        <div
+          class="card"
+          style="width: 30rem; border: 2px solid var(--primary-color)"
+        >
+          <a href="https://fast-ridge-15962.herokuapp.com/" target="_blank"
+            ><img
+              src="./assets/images/Nighthawk.png"
+              class="card-img-top"
+              alt="Screenshot of Nighthawk: The Game"
+          /></a>
+          <div class="card-header text-center">Nighthawk: The Game</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">Tech Used</li>
+            <li class="list-group-item text-center">HTML, CSS, JS</li>
+            <li class="list-group-item text-center">
+              Node.js, Express, BCrypt
+            </li>
+            <li class="list-group-item text-center">
+              Sequelize ORM, MySQL, Handlebars.js
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="card mt-5"
+          style="width: 30rem; border: 2px solid var(--primary-color)"
+        >
+          <a
+            href="https://patrickgp.github.io/Spotify-Weather-App/"
+            target="_blank"
+            ><img
+              src="./assets/images/weatherFlow.png"
+              class="card-img-top"
+              alt=""
+          /></a>
+          <div class="card-header text-center">WeatherFLow</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">Tech Used</li>
+            <li class="list-group-item text-center">HTML, CSS, JS</li>
+            <li class="list-group-item text-center">
+              Node.js, Express, OpenWeather API,Spotify API
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="card mt-5"
+          style="width: 30rem; border: 2px solid var(--primary-color)"
+        >
+          <a href="https://github.com/Patrickgp/the-whole-team" target="_blank"
+            ><img
+              src="./assets/images/The Whole Team.png"
+              class="card-img-top"
+              alt=""
+          /></a>
+          <div class="card-header text-center"><b></b>The Whole Team</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">Tech Used</li>
+            <li class="list-group-item text-center">HTML, CSS, JS</li>
+            <li class="list-group-item text-center">Inquirer, Jest</li>
+          </ul>
+        </div>
+
+        <div
+          class="card mt-5"
+          style="width: 30rem; border: 2px solid var(--primary-color)"
+        >
+          <a href="https://patrickgp.github.io/Code-Quiz/" target="_blank"
+            ><img
+              src="./assets/images/Code-Quiz.png"
+              class="card-img-top"
+              alt=""
+          /></a>
+          <div class="card-header text-center">Code Quiz</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">Tech Used</li>
+            <li class="list-group-item text-center">HTML, CSS, JS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Project Card End -->
+
+    <!-- Contact Me Starts -->
+    <section id="contact">
+      <h1 class="text-center contact">Contact Me</h1>
+
+      <div class="container">
+        <div class="row">
+          <div class="icon-bar col-12">
+            <!--This is an icon bar I constructed to hold my social media links-->
+            <a
+              href="https://github.com/Patrickgp"
+              target="_blank"
+              class="github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/patrick-poopathi-a0586289/"
+              target="_blank"
+              class="linkedin"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/manickampatrick/"
+              target="_blank"
+              class="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/patrick.manickam/"
+              target="_blank"
+              class="facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="contact-form">
+          <form action="">
+            <!-- waiting to put in functionality -->
+            <label for="Email">Enter Your Email Address: </label>
+            <input
+              class="form-input"
+              placeholder="Email Address"
+              type="email"
+              id="email"
+              name="email"
+            />
+            <label for="contact-name"> Your Name</label>
+            <input type="text" placeholder="Your Name" id="contact-name" />
+            <label for="contact-message">Message</label>
+            <textarea name="contact-message" placeholder="Message"></textarea>
+            <a href=""
+              ><input class="button" type="submit" value="Send Email"
+            /></a>
+            <!-- waiting to put in functionality -->
+            <input class="button" type="reset" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me Ends -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script></script>
+  </body>
+</html>
