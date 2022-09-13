@@ -214,3 +214,18 @@ p {
     var(--primary-color)
   );
 }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  z-index: 9999999;
+  border: black 2px solid;
+  cursor: pointer;
+  padding: 5px 50px;
+  font-size: 10pt;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+}
