@@ -13,13 +13,17 @@
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 p {
   color: var(--tertiary-color);
 }
 
 .titler {
   position: absolute;
-  top: 55px;
+  top: 70px;
   left: 80px;
   font-weight: 300;
   color: var(--secondary-color);
@@ -36,7 +40,7 @@ p {
 
 .navbar {
   --bs-navbar-hover-color: var(--primary-color);
-  height: 100px;
+  height: 120px;
 }
 
 .hero-cta {
@@ -184,10 +188,13 @@ p {
 
 #home {
   height: 100vh;
+  width: 100vw;
 }
 
 #about {
   height: 100vh;
+  width: 100vw;
+
   background: linear-gradient(
     45deg,
     var(--secondary-color),
@@ -197,6 +204,8 @@ p {
 }
 
 #projects {
+  width: 100vw;
+
   background: linear-gradient(
     125deg,
     var(--secondary-color),
@@ -207,6 +216,8 @@ p {
 
 #contact {
   height: 100vh;
+  width: 100vw;
+
   background: linear-gradient(
     30deg,
     var(--secondary-color),
@@ -228,4 +239,30 @@ p {
   border-radius: 10px;
   background-color: var(--primary-color);
   color: white;
+}
+
+@media only screen and (max-width: 390px) {
+  .titler {
+    font-size: 16pt;
+    top: 75px;
+    left: 30px;
+  }
+
+  .hero-title {
+    font-size: 32pt;
+    top: 700px;
+    left: 70px;
+  }
+
+  .hero-arrow {
+    top: 700px;
+  }
+
+  .icon-bar a {
+    font-size: 50px;
+  }
+
+  #myBtn {
+    right: 7em;
+  }
 }
