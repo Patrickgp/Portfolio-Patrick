@@ -3,6 +3,7 @@
   --secondary-color: #3272d6;
   --tertiary-color: #ee8328;
   --second-bg-color: #ffd1af;
+  --third-bg-color: #3c00b6;
 }
 
 * {
@@ -14,10 +15,10 @@
 
 .titler {
   position: absolute;
-  top: 50px;
-  left: 100px;
+  top: 55px;
+  left: 80px;
   font-weight: 300;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .navbar-brand {
@@ -26,11 +27,12 @@
 }
 
 .nav-link {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .navbar {
   --bs-navbar-hover-color: var(--primary-color);
+  height: 100px;
 }
 
 .hero-cta {
@@ -160,14 +162,15 @@
   padding: 7px 15px;
   font-size: 16px;
   color: var(--secondary-color);
-  width: 40%;
+  width: 100%;
   margin: 0 auto 15px auto;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 .contact-form input {
-  width: 35%;
+  width: 100%;
+  color: var(--primary-color);
 }
 
 .contact-form textarea {
@@ -182,25 +185,28 @@
 #about {
   height: 100vh;
   background: linear-gradient(
-    180deg,
+    45deg,
     var(--secondary-color),
-    var(--second-bg-color)
+    var(--third-bg-color),
+    var(--primary-color)
   );
 }
 
 #projects {
   background: linear-gradient(
-    180deg,
-    var(--second-bg-color),
-    var(--secondary-color)
+    125deg,
+    var(--secondary-color),
+    var(--third-bg-color),
+    var(--primary-color)
   );
 }
 
 #contact {
   height: 100vh;
   background: linear-gradient(
-    180deg,
+    30deg,
     var(--secondary-color),
-    var(--second-bg-color)
+    var(--third-bg-color),
+    var(--primary-color)
   );
 }
