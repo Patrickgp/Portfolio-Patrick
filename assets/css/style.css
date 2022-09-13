@@ -241,7 +241,7 @@ p {
   color: white;
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 390px) and (min-width: 600px) {
   .titler {
     font-size: 16pt;
     top: 75px;
