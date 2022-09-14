@@ -84,6 +84,16 @@ p {
 
 .card {
   box-shadow: var(--tertiary-color) -2.5px -2.5px 10px 10px;
+  width: 30rem;
+  border: 2px solid var(--primary-color);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.list-group {
+  border-radius: 25px;
 }
 
 .contact {
