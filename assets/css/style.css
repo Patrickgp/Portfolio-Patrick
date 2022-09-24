@@ -109,6 +109,7 @@ p {
   justify-content: space-evenly;
   align-content: center;
   padding: 0;
+  margin: 100px 0;
   height: 150px;
 }
 
@@ -127,31 +128,14 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.facebook i {
-  padding: 0 10px;
-}
-
-.facebook:hover {
-  background: #3b5998;
-  -webkit-text-fill-color: white;
-  transition: ease-in-out 0.3s;
-}
-
-.instagram:hover {
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
-  -webkit-text-fill-color: white;
-  transition: ease-in-out 0.3s;
-}
-
 .linkedin:hover {
   background: #007bb5;
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.email:hover {
+  background: #04643c;
   -webkit-text-fill-color: white;
   transition: ease-in-out 0.3s;
 }
@@ -162,53 +146,15 @@ p {
   transition: ease-in-out 0.3s;
 }
 
-.contact-form {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;
-  color: var(--tertiary-color);
-  font-weight: 500;
-  text-align: center;
-  width: 50%;
-}
-
-.contact-form > * {
-  flex: 1;
-}
-
-.contact-form input,
-.contact-form textarea {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin: 0 auto 15px auto;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.contact-form input {
-  width: 100%;
-  color: var(--primary-color);
-}
-
-.contact-form textarea {
-  height: 35%;
-  font-family: "Poppins", sans-serif;
-}
-
 #home {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
 #about {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-
+  text-align: center;
   background: linear-gradient(
     45deg,
     var(--secondary-color),
@@ -219,7 +165,7 @@ p {
 
 #projects {
   width: 100vw;
-
+  height: 100%;
   background: linear-gradient(
     125deg,
     var(--secondary-color),
@@ -229,7 +175,7 @@ p {
 }
 
 #contact {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 
   background: linear-gradient(
@@ -264,12 +210,12 @@ p {
 
   .hero-title {
     font-size: 32pt;
-    top: 700px;
+    top: 625px;
     left: 70px;
   }
 
   .hero-arrow {
-    top: 700px;
+    top: 600px;
   }
 
   .icon-bar a {
