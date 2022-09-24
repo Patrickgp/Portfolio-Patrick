@@ -202,7 +202,6 @@ p {
 
 #navbarNav {
   background-color: white;
-  border: 2px solid var(--primary-color);
 }
 
 @media only screen and (min-width: 390px) and (max-width: 650px) {
@@ -228,5 +227,10 @@ p {
 
   #myBtn {
     right: 7em;
+  }
+
+  #navbarNav {
+    background-color: white;
+    border: 2px solid var(--primary-color);
   }
 }
