@@ -103,6 +103,8 @@ p {
 
 .icon-bar {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 100%;
   background-color: none;
   justify-content: space-evenly;
@@ -114,8 +116,6 @@ p {
 
 .icon-bar a {
   text-align: center;
-  flex-wrap: wrap;
-  flex-direction: column;
   padding: 15px 25px 5px 25px;
   transition: all 0.3s ease;
   color: var(--main-color);
@@ -141,6 +141,12 @@ p {
 
 .github:hover {
   background: #6e5494;
+  -webkit-text-fill-color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.resume:hover {
+  background: var(--secondary-color);
   -webkit-text-fill-color: white;
   transition: ease-in-out 0.3s;
 }
@@ -219,6 +225,11 @@ p {
 
   .hero-arrow {
     top: 600px;
+  }
+
+  .icon-bar {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .icon-bar a {
