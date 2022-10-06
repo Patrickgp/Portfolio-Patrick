@@ -43,8 +43,17 @@ p {
   color: var(--tertiary-color);
 }
 
+.navbar-brand:hover {
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
 .nav-link {
   color: var(--tertiary-color);
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
 }
 
 .navbar {
@@ -165,6 +174,23 @@ p {
   background: var(--secondary-color);
   -webkit-text-fill-color: white;
   transition: ease-in-out 0.3s;
+}
+
+.skillsheader {
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+.frontend {
+  list-style-type: none;
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+.backend {
+  list-style-type: none;
+  color: var(--tertiary-color);
+  text-align: center;
 }
 
 #home {
